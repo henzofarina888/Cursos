@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'times new roman', times, serif;
+
+}
+
+
+prato .container {
+    border-top: 17px solid var(--preto);
+    border-left: 30px solid var(--preto);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo {
+    margin-right: 40px;
+}
+.lupa {
+   margin-left: 1120px;
+}
+
+.infantil{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #aaa;
+}
+.infantil:hover{
+    color: #fff;
+}
+
+.sino{
+    margin-left: 28px;
+}
+
+.fotoPerfil{
+    margin-left: 23px;
+}
+
+.setaMenu{
+    margin-left: 20px;
+}
+
+prato nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+prato nav a:hover{
+    
+}
